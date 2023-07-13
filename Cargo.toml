@@ -7,20 +7,15 @@ authors = ["CocDap"]
 
 [workspace]
 members = [
-  "./exercises/basic-of-rust"
+  "./exercises/complex-type"
 ]
 
 [[test]]
-name = "conditions"
-path = "./exercises/basic-of-rust/src/conditions.rs"
+name = "structs"
+path = "./exercises/complex-type/src/structs.rs"
 
 [[test]]
-name = "strings"
-path = "./exercises/basic-of-rust/src/strings.rs"
-
-[[test]]
-name = "functions"
-path = "./exercises/basic-of-rust/src/functions.rs"
-
+name = "enums"
+path = "./exercises/complex-type/src/enums.rs"
 
 [dependencies]
