@@ -7,5 +7,9 @@ name = "Rust-Bootcamp-2023"
 version = "0.1.0"
 
 [[package]]
-name = "basic-of-rust"
+name = "generic-type"
+version = "0.1.0"
+
+[[package]]
+name = "traits"
 version = "0.1.0"
